@@ -1,4 +1,4 @@
-CREATE TABLE stories` (
+CREATE TABLE `stories` (
   `id` INT(11) NOT NULL AUTO_INCREMENT ,
   `title` VARCHAR(50) NOT NULL ,
   `url_title` VARCHAR(40) NOT NULL ,

@@ -1,8 +1,4 @@
-What-A-Story
-===================
-
-This is a kind of clone of Telegram made [Telelgra.ph](http://telegra.ph/).
-It has multilingual support. English and Hungarian already created by me.
+Story
 
 ----------
 Used stuff:

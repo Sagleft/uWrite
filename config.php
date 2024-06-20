@@ -4,8 +4,8 @@
     "Site_Title" => "uWrite",
 
     // Author and description of the site, which are meta tags in head
-    "Site_Author" => "",
-    "Site_Description" => "",
+    "Site_Author" => "SGL",
+    "Site_Description" => "uWrite is a minimalist WEB-3 publishing tool that allows you to create richly formatted posts",
 
     // Language of the site || en: English, hu: Hungarian
     "Site_Language" => "en",

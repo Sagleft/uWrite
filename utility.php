@@ -23,3 +23,11 @@
         $string = trim($string, '-');
         return $string;
     }
+
+    function dataFilter($string = "") {
+        $string = strip_tags($string);
+        $string = stripslashes($string);
+        $string = htmlspecialchars($string);
+        $string = trim($string);
+        return $string;
+    }

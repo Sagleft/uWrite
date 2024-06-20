@@ -24,10 +24,13 @@
         return $string;
     }
 
-    function dataFilter($string = "") {
+    function dataFilter($string = "", $db_link = null) {
         $string = strip_tags($string);
         $string = stripslashes($string);
         $string = htmlspecialchars($string);
         $string = trim($string);
+        if(isset($db_link) && $db_link != null) {
+            $string = $db_link->real_escape_string($string);
+        }
         return $string;
     }

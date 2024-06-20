@@ -11,7 +11,7 @@
   if (!empty($_POST)) {
       // Insert into database
       $stmt = $sql->prepare("INSERT INTO stories (title, url_title, author, content, date, hits) VALUES (?, ?, ?, ?, ?, ?)");
-      $title = $sql->dataFilter($_POST["title"]);
+      $title = dataFilter($_POST["title"], $sql);
       $title = !empty($title) ? $title : "Untitled";
 
       // Generate SEO URL with transliteration
@@ -25,7 +25,7 @@
         $url_title = $ut_recipe;
       }
 
-      $author = $sql->dataFilter($_POST["author"]);
+      $author = dataFilter($_POST["author"], $sql);
       $author = !empty($author) ? $author : "Anonymous";
       $content = $_POST["content"];
       $date = date("Y-m-d H:i:s");

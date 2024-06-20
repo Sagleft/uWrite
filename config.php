@@ -15,9 +15,9 @@
 
     // MySQL login details
     "MySQL_host" => "localhost",
-    "MySQL_user" => "",
+    "MySQL_user" => "root",
     "MySQL_pass" => "",
-    "MySQL_db" => "",
+    "MySQL_db" => "uwrite",
 
     // Is debug enabled?
     "Debug" => false,

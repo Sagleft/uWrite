@@ -11,10 +11,10 @@
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.bubble.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/dark.css">
-  <script src="//cdn.quilljs.com/1.1.5/quill.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
   <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
   <link rel="icon" type="image/png" href="images/favicon.png">
 </head>

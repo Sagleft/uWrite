@@ -46,9 +46,10 @@ mysqli_close($sql);
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.bubble.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="//cdn.quilljs.com/1.1.5/quill.bubble.css">
-  <script src="//cdn.quilljs.com/1.1.5/quill.min.js"></script>
+  <link rel="stylesheet" href="css/dark.css">
+  <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
   <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>

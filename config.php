@@ -22,7 +22,7 @@
     // Is debug enabled?
     "Debug" => false,
     // Current timezone
-    "Timezone" => "Europe/Budapest",
+    "Timezone" => "Europe/Moscow",
     // Date show type on view page
     "DateShowTypeView" => "F j, Y"
 

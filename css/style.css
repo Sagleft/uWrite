@@ -2,6 +2,10 @@ body {
   font-size: 1.5rem;
 }
 
+::selection {
+  background-color: #f0544c;
+}
+
 .E-title, .E-author {
   margin-bottom: -10px;
 }

@@ -37,12 +37,15 @@
       <script>
       var toolbarOptions = [
         ['bold', 'italic', { 'header': 1 }, { 'header': 2 }],
-        ['link', 'image', 'video'],
+        ['link', 'video'],
         ['blockquote', 'code-block']
       ];
       var quill = new Quill('.editor', {
         theme: 'bubble',
-        placeholder: 'Compose an epic...'
+        placeholder: 'Compose an epic...',
+        modules: {
+          toolbar: toolbarOptions,
+        },
       });
       var form = document.querySelector('form');
       form.onsubmit = function() {

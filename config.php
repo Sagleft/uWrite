@@ -1,7 +1,7 @@
 <?php
   $config = array(
     // Title of the site
-    "Site_Title" => "What-A-Story",
+    "Site_Title" => "uWrite",
 
     // Author and description of the site, which are meta tags in head
     "Site_Author" => "",

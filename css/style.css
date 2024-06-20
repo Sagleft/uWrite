@@ -1,38 +1,50 @@
 .E-title, .E-author {
   margin-bottom: -10px;
 }
+
 #tb{
   width: 100%;
   border: 0px;
 }
+
 .E-title input {
   font-weight: bold;
 }
+
 .E-author input {
   color: #ccc;
   height: 20px;
 }
+
 .V-author {
   color: #ccc;
 }
+
 input:focus, *:focus {
   outline: none;
 }
+
 .editor {
   width: 100%;
   border: 0px;
 }
+
 #rowtop {
   padding-top: 25px;
 }
+
 input[type=submit], .button {
-  color: #111;
-  border:2px solid #333;
-  border-radius:16px;
+  color: #1d1d1d;
+  border: 3px solid #1d1d1d;
+  border-radius: 15px;
+  font-size: 1.4rem;
+  line-height: initial;
 }
+
 .ql-toolbar.ql-snow, .ql-container.ql-snow {
   border: 0 !important;
 }
+
 .ql-container {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }

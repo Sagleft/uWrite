@@ -1,0 +1,20 @@
+body {
+    background-color: #222;
+    color: #f3f2f2;
+}
+
+input[type=submit], .button {
+    color: #39db7f;
+    border: 3px solid #39db7f;
+}
+
+input[type=submit]:hover {
+    border: 3px solid #64f6a3;
+    color: #64f6a3;
+    background-color: #121212;
+}
+
+input[type="text"] {
+    background-color: #222;
+    color: #f3f2f2;
+}

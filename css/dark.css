@@ -1,6 +1,6 @@
 body {
     background-color: #222;
-    color: #f3f2f2;
+    color: #dfdfdf;
 }
 
 input[type=submit], .button {
@@ -27,4 +27,15 @@ input[type="text"] {
 
 .ql-editor.ql-blank::before {
     color: rgba(244, 244, 244, 0.6);
+}
+
+.ql-editor p, .ql-bubble .ql-editor blockquote {
+    margin-bottom: 1.5rem;
+}
+
+a {
+    color: #39DB7F;
+    font-weight: bold;
+    text-decoration: none !important;
+    border-bottom: 2px solid #39db7f;
 }

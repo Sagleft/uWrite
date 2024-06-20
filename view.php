@@ -3,7 +3,7 @@ include_once("config.php");
 // SQL Connect
 $sql = mysqli_connect($config["MySQL_host"],$config["MySQL_user"],$config["MySQL_pass"],$config["MySQL_db"]);
 if ($config["Debug"] && mysqli_connect_errno()){
-  die("Failed to connect to MySQL: " . mysqli_connect_error());
+  exit("Failed to connect to db");
 }
 
 // If there is no input to associate in mysql, then go home
@@ -11,8 +11,7 @@ if (!empty($_GET["url_title"])) {
   $ut_result = $sql->query("SELECT url_title FROM stories WHERE url_title = '" . $_GET["url_title"] . "'");
   $url_title = $ut_result->num_rows > 0 ? true : false;
   if (!$url_title) {
-    header("Location: index.php");
-    die();
+    header("Location: index.php"); exit;
   }
 
   $from_url_title = $sql->real_escape_string($_GET["url_title"]);
@@ -22,8 +21,7 @@ if (!empty($_GET["url_title"])) {
   $get_hits = $get_data["hits"] +1;
   $sql->query("UPDATE stories SET hits = '$get_hits' WHERE url_title = '$from_url_title'");
 } else {
-  header("Location: index.php");
-  die();
+  header("Location: index.php"); exit;
 }
 $og_title = strlen($get_data["title"]) > 36 ? substr($get_data["title"], 0, 36) . " ..." : $get_data["title"];
 $og_description = strlen($get_data["content"]) > 106 ? substr($get_data["content"], 0, 106) . " ..." : $get_data["content"];

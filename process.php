@@ -5,7 +5,7 @@
   // SQL Connect
   $sql = mysqli_connect($config["MySQL_host"],$config["MySQL_user"],$config["MySQL_pass"],$config["MySQL_db"]);
   if ($config["Debug"] && mysqli_connect_errno()){
-    die("Failed to connect to MySQL: " . mysqli_connect_error());
+    exit("Failed to connect to MySQL");
   }
 
   if (!empty($_POST)) {
@@ -31,11 +31,11 @@
       $date = date("Y-m-d H:i:s");
       $hits = 0;
 
-    $stmt->bind_param("sssssi", $title, $url_title, $author, $content, $date, $hits);
-    if ($stmt->execute()) {
-      exit($url_title);
-    }
-    $stmt->close();
+      $stmt->bind_param("sssssi", $title, $url_title, $author, $content, $date, $hits);
+      if ($stmt->execute()) {
+        exit($url_title);
+      }
+      $stmt->close();
   } else {
       exit("new");
   }

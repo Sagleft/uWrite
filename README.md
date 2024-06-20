@@ -5,12 +5,12 @@
 ----------
 **How to install?**
 
- - Download as zip from GitHub, then unzip to your www folder.
+ - Clone repo.
  - There is a SQL table in *sql.sql*, insert it to your database.
- - Edit config.php, fill your MySQL details and you're ready to go.
+ - Edit config.php, fill your DB details and you're ready to go.
 
 ----------
-**Minimum Requirements:**
+**Requirements:**
 
  - PHP 5.0.7 or newer
  - MySQL 5 with InnoDB support

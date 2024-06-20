@@ -33,13 +33,11 @@
 
     $stmt->bind_param("sssssi", $title, $url_title, $author, $content, $date, $hits);
     if ($stmt->execute()) {
-    echo $url_title;
-    die();
+      exit($url_title);
     }
     $stmt->close();
   } else {
-    echo "new";
-    die();
+      exit("new");
   }
 
   mysqli_close($sql);

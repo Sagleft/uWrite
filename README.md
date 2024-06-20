@@ -1,4 +1,4 @@
-## uyWrite - Free service for publishing content in WEB3.0
+## uWrite - Free service for publishing content in WEB3.0
 
 ![screenshot](images/ui_example.png)
 

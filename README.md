@@ -16,3 +16,10 @@
  - MySQL 5 with InnoDB support
 
 *Have fun!*
+
+## Useful resources
+
+* [How to create WEB 3.0 chatbots](https://udocs.gitbook.io/utopia-api/utopia-api/creating-chat-bots).
+* [How to earn in WEB 3.0](https://udocs.gitbook.io/utopia-api/how-to-earn-in-web-3.0)
+* [Examples of projects](https://udocs.gitbook.io/utopia-api/utopia-api/examples-of-projects) created based on the Utopia API.
+* [Official website](https://u.is/en/) of the Utopia P2P project.

@@ -1,10 +1,4 @@
-Story
-
-----------
-Used stuff:
-
- - Grid system: [Skeleton](http://getskeleton.com/)
- - Editor: [Quill](http://quilljs.com)
+![screenshot](images/ui_example.png)
 
 ----------
 **How to install?**

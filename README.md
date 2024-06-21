@@ -18,7 +18,8 @@
 ----------
 **How to access:**
 
-[Install Utopia](https://u.is/) if you haven't already. Then open Idyll Browser and enter the address in the address bar: `uwrite`
+1. [Install Utopia](https://u.is/) if you haven't already.
+2. Then open Idyll Browser and enter the address in the address bar: `uwrite`
 
 ## Useful resources
 

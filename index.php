@@ -8,14 +8,14 @@
   <meta name="author" content="<?php echo $config["Site_Author"]; ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="css/fonts.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.bubble.css" rel="stylesheet" />
+  <link href="css/quill.bubble.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/dark.css">
-  <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
-  <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="js/quill.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
   <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>

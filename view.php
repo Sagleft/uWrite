@@ -43,13 +43,13 @@ mysqli_close($sql);
   <meta property="og:description" content="<?php echo $og_description; ?>">
   <meta property="article:published_time" content="<?php echo date("Y-m-d", strtotime($get_data["date"])) . "T" . date("H:i:s", strtotime($get_data["date"])) . "+0000"; ?>">
   <meta property="article:author" content="<?php echo $og_author; ?>">
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="css/fonts.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.bubble.css" rel="stylesheet" />
+  <link href="css/quill.bubble.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/dark.css">
-  <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
+  <script src="js/quill.js"></script>
   <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>

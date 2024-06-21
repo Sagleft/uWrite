@@ -50,6 +50,7 @@ mysqli_close($sql);
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/dark.css">
   <script src="js/quill.js"></script>
+  <script src="js/links.js"></script>
   <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
